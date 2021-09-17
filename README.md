@@ -20,9 +20,10 @@
 
   <h3 align="center">University of Texas at Austin CS342 Class Final Project</h3>
   
-  https://user-images.githubusercontent.com/44715677/133855138-95e2cc42-c06b-4d4f-be47-e6daa0a9d0b8.mp4
-  
-  
+  <p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/44715677/133855138-95e2cc42-c06b-4d4f-be47-e6daa0a9d0b8.mp4">
+</p>
+    
   <p align="center">
   
 The authors briefly describe the process of designing an agent to play SuperTuxKart, and particularly compete with the AI oracle (and other classmate AI agents) in a 2v2 hockey game. Our strategy was to maximize puck possession and minimize puck distance to the opponent’s goal. Imitation Learning and DAgger could not perform sufficiently well when trained using the AI oracle of the game. Instead, an internal state controller was built and found superior to the AI, where it wins 70% of the time and scores an average of 3.1 goals per game when competing in 2v2 against the AI oracle. Based on supervised learning, a planner was trained to detect puck presence and location. Playing 10 2v2 games, this agent wins 30% of the games and scores an average of 1.2 goals per game. Future work can involve training a DAgger learner on the internal state controller.
